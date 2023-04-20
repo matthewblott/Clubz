@@ -1,1 +1,0 @@
-import{M as a}from"./member-70979ef1.js";import{e as s}from"./index-4d8f42c1.js";const n=async({params:e,url:o})=>{o.pathname.split("/").filter(r=>r!=="")[1];const t=await a.fetchById(e.id);if(t)return t;throw s(404,"Not found")},c=Object.freeze(Object.defineProperty({__proto__:null,load:n},Symbol.toStringTag,{value:"Module"}));export{c as _,n as l};
