@@ -41,7 +41,7 @@ npm run dev
 
 The easiest way to debug the front end is to use Chrome's dev tools. It is then possible to set breakpoints on the TypeScript files and use the debbugger accordingly.
 
-![Debugging](debbugging.jpg "Debugging")
+![Debugging](images/debugging.jpg)
 
 ### Back End
 
