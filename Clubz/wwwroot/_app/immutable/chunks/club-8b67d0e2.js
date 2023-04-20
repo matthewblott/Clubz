@@ -1,0 +1,1 @@
+import{m}from"./TextField-0e13bc48.js";const i=m.object({id:m.number(),name:m.string().min(1).max(50),addressLine1:m.string().min(1).max(50),postalTown:m.string().min(1).max(50),postcode:m.string().min(1).max(10)});export{i as C};

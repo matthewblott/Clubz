@@ -1,0 +1,1 @@
+import{m}from"./TextField-0e13bc48.js";const r=m.object({id:m.number(),clubId:m.number(),forename:m.string().min(1).max(50),surname:m.string().min(1).max(50),emailAddress:m.string().email().min(5).max(50)});export{r as M};

@@ -1,0 +1,1 @@
+import{w as t}from"./index-4c777d76.js";import{C as s}from"./index-81f5a037.js";const i=t(null),l=t(!1),d="northwind_sqlite",P="d46e7f66f9415e182b593e47cefb5d1ffb81bb8d0e9390a0d3046ebe4a61cc38",a="10.0.2.2",m=()=>{let o="localhost";return s.getPlatform()==="android"&&(o=a),`${o}:${8e3}`};export{d as P,P as a,m as g,l as i,i as s};

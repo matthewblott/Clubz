@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Clubz</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\favicon.ico" />
+    <_ContentIncludedByDefault Remove="wwwroot\favicon.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\index.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\_app\.DS_Store" />
+    <_ContentIncludedByDefault Remove="wwwroot\_app\immutable\assets\_layout-b917d475.css" />
+    <_ContentIncludedByDefault Remove="wwwroot\_app\immutable\chunks\0-9087a7e7.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_app\immutable\chunks\1-08799122.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_app\immutable\chunks\2-05442b4a.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_app\immutable\chunks\3-b4bf949e.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_app\immutable\chunks\4-474b7157.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_app\immutable\chunks\index-5ffef589.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_app\immutable\chunks\singletons-978e7a94.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_app\immutable\chunks\stores-ee779e6c.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_app\immutable\components\error.svelte-fe717efd.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_app\immutable\components\pages\clubs\_id_\members\_page.svelte-37122e14.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_app\immutable\components\pages\clubs\_page.svelte-c29c1a8c.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_app\immutable\components\pages\_layout.svelte-96327d42.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_app\immutable\components\pages\_page.svelte-bd02f3d1.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_app\immutable\start-3cab2742.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\_app\version.json" />
+  </ItemGroup>
+
+</Project>
